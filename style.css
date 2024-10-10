@@ -1,0 +1,19 @@
+body{
+    align-items: center;
+    text-align: center;
+}
+
+
+
+h1 {
+    text-align: center;
+    align-items: center;
+}
+
+
+.box{
+    border: 20px;
+    padding: 800px;
+    background-color: pink;
+    border-color: pink;
+}
