@@ -1,20 +1,19 @@
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel = "stylesheet" href = "style.css">
-    </head>
-    <body>
-        <h1>NBA Player</h1>
-    <div class = "background">
-        <form action="" class="form">
-            <p>Enter Your Player</p>
-            <input type="type" />
-            <button>SUBMIT</button>
-        </form>
-        <script src="index.js"></script>
-        <button> button </button>
-    </div>
-    </body>
+ <head>
+ <meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>NBA Players </title>
+<link rel="stylesheet" href="style.css">
+</head>
+ <body> 
+<h1>NBA Players</h1> 
+<form id="playerForm"> 
+<input type="text" id="playerName" placeholder="Enter Player Name" required /> 
+<input type="text" id="playerTeam" placeholder="Enter Team" required />
+ <button type="submit">Add Player</button> 
+</form> 
+
+<div id="playersContainer"></div> 
+<script src="script.js"></script> </body> 
 </html>
+
